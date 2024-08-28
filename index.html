@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>portofolio web kusuma putra</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="primary-heading">Kusuma Putra</h1>
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li class="nav-links">
+            <a class="nav-link" href="">Home</a>
+          </li>
+          <li class="nav-links">
+            <a class="nav-link" href="">Skills</a>
+          </li>
+          <li class="nav-links">
+            <a class="nav-link" href="">Projects</a>
+          </li>
+          <li class="nav-links">
+            <a class="nav-link" href="">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="mobile-nav-btn">
+        <ion-icon class="icon-mobile-nav open" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav close" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <section class="about" data-aos="fade-up" data-aos-duration="1000">
+      <div class="container">
+        <div class="grid grid--2-cols">
+          <img class="my-image" src="assets/putra.jpg" alt="my image" />
+          <div class="about-info">
+            <h2 class="secondary-heading">
+              Hey i'm <span class="name">Putra kenz </span>
+            </h2>
+            <p class="about-text">
+              Hi there! My name is putra kenz,  This is my first website, after studying for several months. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="skills"
+      data-aos="fade-down"
+      data-aos-duration="1000"
+      id="skills"
+    >
+      <div class="container">
+        <div class="heading-text">
+          <h3 class="tertiary-heading">Skills and Expertise</h3>
+        </div>
+        <div class="skills-images">
+          <img src="assets/HTML.png" alt="" class="skill-img" />
+          <img src="assets/CSS.png" alt="" class="skill-img" />
+          <img src="assets/JS.png" alt="" class="skill-img" />
+          <img src="assets/REACT.png" alt="" class="skill-img" />
+          <img src="assets/GIT.png" alt="" class="skill-img" />
+        </div>
+      </div>
+    </section>
+    <section
+      class="projects"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      id="projects"
+    >
+      <div class="container">
+        <div class="heading-text">
+          <h3 class="tertiary-heading">My Projects</h3>
+        </div>
+        <div class="grid grid-3--cols">
+          <div class="card">
+            <img
+              class="project-image"
+              src="assets/app1.webp"
+              alt="my project"
+            />
+            <h4 class="project-name">Landing Page</h4>
+            <a class="project-link" href="">Viiew Project -></a>
+          </div>
+          <div class="card">
+            <img class="project-image" src="assets/app.webp" alt="my project" />
+            <h4 class="project-name">Music App</h4>
+            <a class="project-link" href=" ">Viiew Project -></a>
+          </div>
+          <div class="card">
+            <img
+              class="project-image"
+              src="assets/app2.webp"
+              alt="my project"
+            />
+            <h4 class="project-name">Ecommerce App</h4>
+            <a class="project-link" href=" ">View Project -></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" data-aos="fade-up" data-aos-duration="1000">
+      <div class="container">
+        <div class="heading-text">
+          <h3 class="tertiary-heading">Send Me Message</h3>
+        </div>
+        <form action="" class="form">
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Enter Your Name"
+            required
+          />
+          <input
+            type="email"
+            name=""
+            id=""
+            placeholder="Enter Your Email"
+            required
+          />
+          <input type="tel" placeholder="Your Contact Number" />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="7"
+            placeholder="Your Message"
+          ></textarea>
+          <button class="btn">Contact me</button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer" data-aos="fade-up" data-aos-duration="1000">
+      <div class="container">
+        <div class="footer-section">
+          <div class="icons">
+            <div class="icons">
+              <!-- Facebook -->
+              <a href="https://www.facebook.com/kus.putra.752" target="_blank" title="Facebook">
+                <ion-icon class="icon" name="logo-facebook"></ion-icon>
+              </a>
+              <!-- Instagram -->
+              <a href="https://www.instagram.com/putrakenz_" target="_blank" title="Instagram">
+                <ion-icon class="icon" name="logo-instagram"></ion-icon>
+              </a>
+              <!-- Twitter -->
+              <a href="https://twitter.com/@PutraKenz_Nft" target="_blank" title="Twitter">
+                <ion-icon class="icon" name="logo-twitter"></ion-icon>
+              </a>
+              <a href="https://www.tiktok.com/@putrakenz_" target="_blank" title="Tiktok">
+                <ion-icon class="icon" name="logo-tiktok"></ion-icon>
+              </a>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+    <div class="and">
+    <p class="copyright">@putrakenz_</p>
+  </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="app.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

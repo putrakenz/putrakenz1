@@ -1,0 +1,156 @@
+@media (max-width: 81em) {
+  .container {
+    max-width: 70rem;
+  }
+}
+
+@media (max-width: 72em) {
+  .container {
+    max-width: 65rem;
+    margin: 2rem auto;
+  }
+
+  .grid {
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 68em) {
+  .container {
+    max-width: 54rem;
+    margin: 2rem auto;
+  }
+  .grid {
+    gap: 2rem;
+  }
+  .grid-3--cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .card {
+    width: 17rem;
+  }
+
+  .primary-heading {
+    font-size: 1.8rem;
+  }
+
+  .secondary-heading {
+    font-size: 2.6rem;
+  }
+
+  .my-image {
+    width: 80%;
+  }
+}
+
+@media (max-width: 60em) {
+  .container {
+    max-width: 46rem;
+  }
+  .grid-3--cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid {
+    gap: 1.5rem;
+  }
+  .about-text {
+    font-size: 1rem;
+    line-height: 1.4;
+    padding-top: 1.6rem;
+  }
+  .skill-img {
+    width: 6.5rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px #00000010;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 70vw;
+    right: 0;
+    background-color: #ffffff;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    display: none;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile-nav-btn {
+    border: none;
+    background: none;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 48em) {
+  .about {
+    padding: 1rem 0;
+    text-align: center;
+  }
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .my-image {
+    width: 50%;
+    box-shadow: 0 2px 4px #0000000c;
+    border: 10px solid #fff;
+    border-radius: 1rem;
+    grid-row: 2;
+    text-align: center;
+    margin: 1.5rem auto;
+  }
+
+  .container {
+    max-width: 37rem;
+  }
+
+  .skill-img {
+    width: 5.5rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px #00000010;
+  }
+}
+
+@media (max-width: 37em) {
+  .container {
+    max-width: 90%;
+    margin: 1rem auto;
+  }
+
+  .grid-3--cols {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 17rem;
+  }
+
+  .skill-img {
+    width: 3.5rem;
+    background-color: #fff;
+    padding: 0.6rem;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px #00000010;
+  }
+
+  .footer-section {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
